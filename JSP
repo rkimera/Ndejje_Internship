@@ -9,7 +9,7 @@ How to use Frameset
  </frameset>
  <frameset rows="*" cols="220,*" framespacing="0" frameborder="0"/>
  <frame src="frmMenu.jsp" name="frame3" scrolling="no">
- <frame src="displayrecords.jsp" name="frame4" scrolling="yes" />
+ 
  </frameset>
  <frame src="footer.jsp" name="frame5" scrolling="no"/>
  </frameset>
