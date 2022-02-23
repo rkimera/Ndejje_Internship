@@ -14,3 +14,8 @@ How to use Frameset
  <frame src="footer.jsp" name="frame5" scrolling="no"/>
  </frameset>
 
+String value=request.getParameter("record");
+    
+    PreparedStatement stmt1 = connection.prepareStatement("select user_id,fname,lname,uname,passwd, address, contact from register where fname LIKE '"+value+"%'");
+
+
