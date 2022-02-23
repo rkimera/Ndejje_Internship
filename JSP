@@ -1,2 +1,16 @@
 JSP Programming
 --This is a nice programming approache to server end applications.
+
+How to use Frameset
+<frameset rows="120,*,25" cols="*" framespacing="0" frameborder="0">
+ <frameset rows="*,40" cols="*" framespacing="0" frameborder="0">
+ <frame src="header.jsp" name="frame1" scrolling="no">
+ <frame src="sessions.jsp" name="frame2" scrolling="no">
+ </frameset>
+ <frameset rows="*" cols="220,*" framespacing="0" frameborder="0"/>
+ <frame src="frmMenu.jsp" name="frame3" scrolling="no">
+ <frame src="displayrecords.jsp" name="frame4" scrolling="yes" />
+ </frameset>
+ <frame src="footer.jsp" name="frame5" scrolling="no"/>
+ </frameset>
+
