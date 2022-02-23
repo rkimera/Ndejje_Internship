@@ -19,3 +19,4 @@ How to use Frameset
     PreparedStatement stmt1 = connection.prepareStatement("select user_id,fname,lname,uname,passwd, address, contact from register where fname LIKE '"+value+"%'");
 
 
+last line closed here
